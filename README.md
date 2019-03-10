@@ -17,4 +17,5 @@ Then edit /etc/zabbix/zabbix_agent.conf file, and change Server, ServerActive, a
 ```
 Please donate to the author, so he can continue to publish other awesome project for free:
 
+(<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />)
 [Donate via PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P4VC8MCT7NDKJ&source=url)
