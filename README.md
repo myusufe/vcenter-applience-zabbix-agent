@@ -1,16 +1,16 @@
 # vcenter-applience-zabbix-agent
 
 This Zabbix-agent binary is for vMware 6.7U1 Photon 1.0 OS. Already tested and validated using vMware 6.7U1.
-To install this your have to extract tar file or copy all file to appropriate directory.
-
-After you got the file, run this command,
+To install it, you have to get all files, and copy it to right directory.
 
 ```
-cd /
-tar xvfz zabbix_agent_photon.tgz
+cp -frp usr/bin/* usr/bin
+cp -frp etc/zabbix /etc/
+cp -frp var/log/zabbix /var/log/
+cp -frp var/run/zabbix /var/run/
 ```
 
-Then edit /etc/zabbix/zabbix_agent.conf file, and change Server, ServerActive, and Hostname config as your needed, then run Zabbix-agent using this command,
+Then edit /etc/zabbix/zabbix_agent.conf file, and change Server, ServerActive, and Hostname config as you have, then run Zabbix-agent using this command,
 
 ```
 /usr/bin/zabbix_agentd -c /etc/zabbix/zabbix_agent.conf
