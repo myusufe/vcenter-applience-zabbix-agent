@@ -5,9 +5,13 @@ To install this your have to extract tar file or copy all file to appropriate di
 
 After you got the file, run this command,
 
+```
 cd /
 tar xvfz zabbix_agent_photon.tgz
+```
 
-Then run Zabbix-agent using this command,
+Then edit /etc/zabbix/zabbix_agent.conf file, and change Server, ServerActive, and Hostname config as your needed, then run Zabbix-agent using this command,
 
+```
 /usr/bin/zabbix_agentd -c /etc/zabbix/zabbix_agent.conf
+```
