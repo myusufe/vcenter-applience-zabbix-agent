@@ -1,0 +1,1 @@
+# vcenter-applience-zabbix-agent
